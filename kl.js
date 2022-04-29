@@ -165,10 +165,6 @@ items.forEach((item, index)=> {
         let xCor = el.currentTarget.classList[2].split('_')[1] 
      
         let a = el.currentTarget.id
-        // item.classList.add('border')
-        // console.log(a);
-        // console.log(yCor, xCor);
-        // console.log(el.target);
         console.log(item);
         cordArr.push(yCor, xCor)
         gameArr.push(a)
@@ -182,7 +178,7 @@ items.forEach((item, index)=> {
             console.log(son);
         }
         if(gameArr.length==2 && gameArr[0]==gameArr[1] && cordArr.length==4) {
-            // item.classList.remove('border')
+       
 
             el.target.remove()
             el.target.remove()
@@ -212,7 +208,6 @@ items.forEach((item, index)=> {
                (cordArr[0]==cordArr[2] && cordArr[1]==cordArr[3]-11)) {
 
                 el.target.remove()
-                // item.target.firstChild.remove()
                 count++
                 span.innerHTML= `${count-1}`
                 console.log("ok");
@@ -242,7 +237,6 @@ items.forEach((item, index)=> {
                 (cordArr[0]==(cordArr[2]-11) && cordArr[1]==cordArr[3])) {
 
                     el.target.remove()
-                    // item.target.firstChild.remove()
                     count++
                     span.innerHTML= `${count-1}`
                     console.log("ok");
