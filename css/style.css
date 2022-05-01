@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/download.2jpeg);
+  background-image: url(../images/gg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .box__list {
-  width: 90%;
+  width: 80%;
   padding: 0 !important;
   cursor: pointer;
   display: flex;
@@ -35,32 +35,19 @@ body {
   height: 90px;
   border: 1px solid rgb(156, 156, 156);
   background-color: transparent;
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* color: #fff; */
+  background-color: rgb(250, 244, 223);
+  padding: 5px;
 }
 .box__img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
-.green {
-  background-color: green;
-}
-.red {
-  background-color: red;
-}
-.d-none {
-  display: none;
-}
-.d-block {
-  display: block;
-}
-.bosh {
-  color: transparent;
-}
+
 .bx-time-five {
   display: block;
   font-size: 40px;
