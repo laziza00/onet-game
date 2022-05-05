@@ -124,7 +124,7 @@ const pokemons = [
 //     }
 // ]
 
-let arr = [], c = 0, arrOfImg = [], clicked = [], ball = 0, timer = 180
+let arr = [], c = 0, arrOfImg = [], clicked = [], ball = 0, timer = 60
 let box__list = document.querySelector('.box__list')
 let time = document.querySelector('.time')
 // ekranga joylashtirish
@@ -293,6 +293,7 @@ function setNull(row, index) {
         if (i == row) {
             for (let j = 0; j < arr[i].length; j++) {
                 if (index == j) {
+                    console.log(arr[i][j]);
                     arr[i][j] = null
                 }
             }
@@ -720,7 +721,3 @@ function checkTime(timer) {
         modalBox.classList.add('show')
     }
 }
-
-
-
-
