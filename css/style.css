@@ -456,7 +456,6 @@ body {
     width: 37px !important;
     height:  37px !important;
     margin: 3px;
-    padding: 0;
     border-radius: 10px;
   }
 }
@@ -476,7 +475,6 @@ body {
     width: 32px !important;
     height:  32px !important;
     margin: 3px;
-    padding: 0;
   }
 }
 @media screen and (max-width: 380px) {
@@ -496,7 +494,6 @@ body {
     width: 30px !important;
     height:  30px !important;
     margin: 3px;
-    padding: 0;
   }
 }
 @media screen and (max-width: 360px) {
@@ -511,7 +508,6 @@ body {
     width: 29px !important;
     height:  29px !important;
     margin: 3px;
-    padding: 0;
   }
 }
 @media screen and (max-width: 350px) {
@@ -522,7 +518,6 @@ body {
     width: 27px !important;
     height:  27px !important;
     margin: 3px;
-    padding: 0;
   }
 }
 @media screen and (max-width: 330px) {
@@ -533,7 +528,6 @@ body {
     width: 25px !important;
     height:  25px !important;
     margin: 3px;
-    padding: 0;
   }
 }
 @media screen and (max-width: 310px) {
